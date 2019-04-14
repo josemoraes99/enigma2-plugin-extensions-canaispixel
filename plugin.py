@@ -29,7 +29,6 @@ from subprocess import call
 import time
 # import gc
 
-__version__             = "0.1.0"
 __bouquetGroup__        = ["bouquets.radio", "bouquets.tv"]
 __e2dir__               = "/etc/enigma2/"
 __lambedbFile__         = __e2dir__ + 'lamedb5'
