@@ -11,3 +11,6 @@ Instalar pelo ipkg
 ```
 ipkg install enigma2-plugin-extensions-canaispixel.ipk
 ```
+
+Se não quiser usar o plugin, há uma versão para rodar somente no terminal em
+https://github.com/josemoraes99/enigma2_picons
