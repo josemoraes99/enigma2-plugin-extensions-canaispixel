@@ -1,5 +1,5 @@
 ###########################################################################
-__version__             = "0.1.1"
+__version__             = "0.1.2"
 ###########################################################################
 
 from Screens.Screen import Screen
@@ -200,10 +200,10 @@ def main(session, **kwargs):
         print("check for update")
         updateReturn = update(__updateurl__)
         if updateReturn:
-            print("updating")
-            logging.info( "Reiniciando script" )
-            python = sys.executable
-            os.execl(python, python, *sys.argv)
+            print("updgraded")
+            # logging.info( "Reiniciando script" )
+            # python = sys.executable
+            # os.execl(python, python, *sys.argv)
     session.open(HalloWorldScreen)
 ###########################################################################
 def Plugins(**kwargs):
